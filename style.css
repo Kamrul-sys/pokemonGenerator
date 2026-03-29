@@ -1,3 +1,14 @@
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+#subtitle {
+    margin-bottom: 20px;
+    color: #6b7280;
+    font-size: 0.95rem;
+}
 body {
     font-family: Arial, sans-serif;
     background: #f4f7fb;
