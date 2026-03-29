@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+    <!-- Cache-busting CSS -->
+    <link rel="stylesheet" href="style.css?v=2">
+
+    <title>Random Pokémon Generator</title>
 </head>
+
 <body>
+
     <div id="container">
-        <button id="btn">Generate Pokemon!</button>
+
+        <h1>Random Pokémon Generator</h1>
+
+        <p id="subtitle">
+            Generate a random Pokémon using the PokéAPI
+        </p>
+
+        <button id="btn">Generate Pokémon</button>
+
         <div id="output">...</div>
+
         <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none;">
+
     </div>
-    <script src="main.js"></script>
+
+    <!-- Cache-busting JS -->
+    <script src="main.js?v=2"></script>
+
 </body>
 </html>
