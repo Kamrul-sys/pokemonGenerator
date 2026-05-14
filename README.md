@@ -1,23 +1,26 @@
 # Pokémon Random Generator
 
-This is a simple web-based project that generates a random Pokémon using the public PokéAPI.
+Pokémon Random Generator is a small browser project that shows a random Pokémon with its name and sprite.
 
-It displays the Pokémon name and sprite and was created as a learning project to understand how APIs work in JavaScript.
+You can try the live version here:
 
-Live Demo:  
 https://kamrul-sys.github.io/pokemonGenerator/
 
----
+I made this project while learning how to use APIs with JavaScript. The game uses the public PokéAPI and sends a request when a new random Pokémon is generated.
 
-## How it works
+It is intentionally simple. The point of the project was not to build a big app, but to understand how a website can fetch data from an external API and then display that data in the browser.
 
-- Uses the public PokéAPI to fetch random Pokémon data  
-- Each interaction sends a request to the API  
-- Displays the Pokémon name and sprite in the browser  
+I wrote more about this project here:
 
-This project is intentionally simple and not optimized for high traffic or production use.
+https://kami-media.blogspot.com/2026/03/random-pokemon-generator-javascript.html
 
----
+I also wrote a more general article about how websites fetch data from APIs:
+
+https://kami-media.blogspot.com/2026/03/how-websites-fetch-data-from-api.html
+
+More of my projects are collected here:
+
+https://kami-media.blogspot.com/p/projects.html
 
 ## Disclaimer
 
